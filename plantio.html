@@ -14,6 +14,14 @@
                   <!-- search bar -->
      <div class="mb-6 bg-green-500 flex"><input type="text" id="searchInput" placeholder="Search plants..." class="w-full border rounded p-2 shadow-sm" /></div>
 
+     <!-- //filtreing plants by type -->
+
+   <select id="typeFilter">
+  <option value="">All</option>
+  <option value="Indoor">Indoor</option>
+  <option value="Outdoor">Outdoor</option>
+</select>
+
 
         <!-- body  -->
   <div class="container  mx-auto p-4 border-gray-300 border-2 rounded-lg mt-4 bg-green-50">
@@ -42,6 +50,8 @@
         <p class="mb-4">Here you can view and manage your plants.</p>
    <div id="plantioList" class="container flex flex-wrap justify-evenly    gap-4"></div>
    </div>
+
+   
 
    <script src="./src/plantio.js"></script> 
 </body>

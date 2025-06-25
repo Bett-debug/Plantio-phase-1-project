@@ -49,6 +49,19 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     })
     .catch(err => console.error("Failed to fetch plant data:", err));
+
+    //filtering
+    const typeFilter = document.getElementById("typeFilter");
+typeFilter.addEventListener("change", (event) => {
+  const selectedType = event.target.value.toLowerCase();
+  const cards = document.querySelectorAll("#plantioList > div");
+
+  cards.forEach(card => {
+    const plantType = card.textContent.toLowerCase();
+    card.style.display = selectedType === "" || plantType.includes(selectedType) ? "block" : "none";
+  });
+});
+
 });
 
 
