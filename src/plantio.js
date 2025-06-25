@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       data.data.forEach(plant => {
         const card = document.createElement('div');
-        card.className = 'h-80 p-4 bg-white rounded-lg shadow max-w-xs  hover:shadow-lg ';
+        card.className = 'h-80 p-4 bg-green-200 rounded-lg shadow max-w-xs  hover:shadow-lg';
 
         card.innerHTML = `
           <img src="${plant.image_url}" alt="${plant.common_name}" class=" h-55 w-65 object-cover rounded">
