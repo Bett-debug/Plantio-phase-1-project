@@ -18,12 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
         //  popup modal containing a close button
         card.addEventListener('click', () => {
   document.body.insertAdjacentHTML('beforeend', `
-    <div class="fixed inset-0  flex items-center justify-center " onclick="this.remove()">
-    <div class="bg-white  max-w-xl p-6 rounded-xl shadow-xl relative" onclick="event.stopPropagation()">
+    <div class="fixed inset-0  flex items-center justify-center bg-black/50 " onclick="this.remove()">
+    <div class="bg-green-100  max-w-xl p-6 rounded-xl shadow-xl relative" onclick="event.stopPropagation()">
       
        
-        <img src="${plant.image_url}" alt="${plant.common_name}"img.className = 'w-full object-contain rounded mb-4';
-">
+        <img src="${plant.image_url}" alt="${plant.common_name}"img.className = 'w-full object-contain rounded mb-4';">
         <h2 class="text-2xl font-bold">${plant.common_name}</h2>
         <p class="italic text-gray-600">${plant.scientific_name}</p>
         <p class="mt-2 text-black font-medium">Best Location: ${plant.plant_location}</p>
