@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-green-50">
+    <!-- header -->
+    
+    <nav class="flex items-center justify-between p-4 bg-white shadow-md text-sm font-medium"><div class="text-xl font-bold">Plant <span class="text-green-600">io.</span></div><ul class="flex space-x-6"><li><a href="#" class="hover:text-green-600">Favourites</a></li><li><a href="#" class="hover:text-green-600">About</a></li><li><a href="#" class="hover:text-green-600">More</a></li><li><a href="#" class="hover:text-green-600">Contact us</a></li></ul></nav>
+
+                  <!-- search bar -->
+     <div class="mb-6 bg-green-500 flex"><input type="text" id="searchInput" placeholder="Search plants..." class="w-full border rounded p-2 shadow-sm" /></div>
+
+
+        <!-- body  -->
+  <div class="container  mx-auto p-4 border-gray-300 border-2 rounded-lg mt-4 bg-green-50">
+        <h1 class="text-2xl font-bold mb-4 text-center">Plantio</h1>
+        <p class="mb-4">Welcome to Plantio, your personal plant care assistant!</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Plant Care Tips</h2>
+                <p>Learn how to take care of your plants with our expert tips.</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Plant Database</h2>
+                <p>Explore our extensive database of plants and their care requirements.</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Community Forum</h2>
+                <p>Join our community to share tips and ask questions about plant care.</p>
+            </div>
+        </div>
+
+  </div>   
+  <!-- display     -->
+   <div class="container flex flex-col items-center justify-center mx-auto mt-8 p-4 border-gray-300 border-2 rounded-lg bg-green-50">
+        <h2 class="text-xl font-semibold mb-4">Your Plants</h2>
+        <p class="mb-4">Here you can view and manage your plants.</p>
+   <div id="plantioList" class="container flex flex-wrap justify-evenly    gap-4"></div>
+   </div>
+
+   <script src="./src/plantio.js"></script> 
+</body>
+</html>

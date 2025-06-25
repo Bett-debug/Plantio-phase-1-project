@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "common_name": "Aloe Vera",
+      "scientific_name": "Aloe barbadensis miller",
+      "plant_location": "indoor",
+      "image_url": "https://i.pinimg.com/736x/06/e5/5f/06e55f79570c3a7a870d21418e40a37c.jpg",
+      "plant_info": "Aloe Vera is a succulent plant species of the genus Aloe. It is widely known for its medicinal and cosmetic uses, particularly its soothing gel that can be applied to burns and skin irritations.",
+      "plant_care": "Aloe Vera prefers bright, indirect sunlight and should be watered sparingly, allowing the soil to dry out between waterings. It thrives in well-draining soil and can tolerate drought conditions.",
+      "plant_type": "succulent",
+      "plant_fertilizer": "use a balanced fertilizer during the growing season"
+      },
+    {
+      "id": 2,
+      "common_name": "Cactus",
+      "scientific_name": "Cactaceae",
+      "plant_location": "outdoor",
+      "image_url": "https://i.pinimg.com/736x/1f/70/9a/1f709a48e1e033827ee2f9c4e3ede2b7.jpg",
+        "plant_info": "Cacti are succulent plants that are adapted to survive in arid environments. They store water in their stems and have spines instead of leaves to reduce water loss.",
+        "plant_care": "Cacti require plenty of sunlight and should be watered infrequently, allowing the soil to dry out completely between waterings. They thrive in sandy, well-draining soil.",
+        "plant_type": "succulent",
+        "plant_fertilizer": "use a cactus-specific fertilizer during the growing season"
+    },
+    {
+      "id": 3,
+      "common_name": "Orchid",
+      "scientific_name": "Orchidaceae",
+      "plant_location": "indoor",
+      "image_url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Orchids are a diverse and widespread family of flowering plants, known for their unique and intricate flowers. They can be found in a variety of habitats, from tropical rainforests to arid deserts.",
+        "plant_care": "Orchids prefer bright, indirect light and should be watered when the potting medium is dry to the touch. They thrive in well-draining orchid mix and benefit from regular fertilization during the growing season.",
+        "plant_type": "flowering",
+        "plant_fertilizer": "use a balanced orchid fertilizer every 2-4 weeks during the growing season"
+    },
+    {
+      "id": 4,
+      "common_name": "Snake Plant",
+      "scientific_name": "Sansevieria trifasciata",
+      "plant_location": "indoor",
+      "image_url": "https://images.unsplash.com/photo-1651807192982-90c5ff8cc872?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Snake Plant, also known as Mother-in-Law's Tongue, is a hardy indoor plant known for its striking upright leaves. It is an excellent air purifier and can tolerate low light conditions.",
+        "plant_care": "Snake Plants prefer indirect light but can tolerate low light. They should be watered sparingly, allowing the soil to dry out completely between waterings. They thrive in well-draining soil.",
+        "plant_type": "foliage",
+        "plant_fertilizer": "use a balanced fertilizer during the growing season"
+    },
+    {
+      "id": 5,
+      "common_name": "Lavender",
+      "scientific_name": "Lavandula",
+      "plant_location": "outdoor",
+      "image_url": "https://images.unsplash.com/photo-1719222285539-3da22544606d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Lavender is a fragrant herb known for its beautiful purple flowers and calming scent. It is often used in aromatherapy and as a culinary herb.",
+        "plant_care": "Lavender prefers full sun and well-draining soil. It should be watered sparingly, allowing the soil to dry out between waterings. Pruning after flowering helps maintain its shape.",
+        "plant_type": "herb",
+        "plant_fertilizer": "use a low-nitrogen fertilizer during the growing season"
+    },
+    {
+      "id": 6,
+      "common_name": "Peace Lily",
+      "scientific_name": "Spathiphyllum",
+      "plant_location": "indoor",
+      "image_url": "https://plus.unsplash.com/premium_photo-1663961915598-e63b1cc7275b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Peace Lily is a popular indoor plant known for its elegant white flowers and glossy green leaves. It is also known for its air-purifying qualities.",
+        "plant_care": "Peace Lilies prefer low to medium indirect light and should be watered when the top inch of soil feels dry. They thrive in well-draining potting mix and benefit from occasional misting.",
+        "plant_type": "foliage",
+        "plant_fertilizer": "use a balanced fertilizer every 6-8 weeks during the growing season"
+    },
+    {
+      "id": 7,
+      "common_name": "Rose",
+      "scientific_name": "Rosa",
+      "plant_location": "outdoor",
+      "image_url": "https://images.unsplash.com/photo-1653906252333-236ce08222d4?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Roses are one of the most popular flowering plants, known for their beautiful blooms and sweet fragrance. They come in a variety of colors and sizes.",
+        "plant_care": "Roses prefer full sun and well-draining soil. They should be watered deeply but infrequently, allowing the soil to dry out between waterings. Regular pruning helps promote healthy growth.",
+        "plant_type": "flowering",
+        "plant_fertilizer": "use a rose-specific fertilizer during the growing season"
+    },
+    {
+      "id": 8,
+      "common_name": "Spider Plant",
+      "scientific_name": "Chlorophytum comosum",
+      "plant_location": "indoor",
+      "image_url": "https://images.unsplash.com/photo-1608161779298-f42256d2c58d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Spider Plant is a hardy indoor plant known for its arching green leaves and small white flowers. It is easy to care for and can thrive in a variety of conditions.",
+        "plant_care": "Spider Plants prefer bright, indirect light but can tolerate low light. They should be watered when the top inch of soil feels dry. They thrive in well-draining potting mix and benefit from occasional misting.",
+        "plant_type": "foliage",
+        "plant_fertilizer": "use a balanced fertilizer every 4-6 weeks during the growing season"
+    },
+    {
+      "id": 9,
+      "common_name": "Bamboo Palm",
+      "scientific_name": "Chamaedorea seifrizii",
+      "plant_location": "indoor",
+      "image_url": "https://plus.unsplash.com/premium_photo-1700862906112-82c65b65f267?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Bamboo Palm is a popular indoor plant known for its feathery fronds and air-purifying qualities. It adds a tropical touch to any indoor space.",
+        "plant_care": "Bamboo Palms prefer bright, indirect light and should be watered when the top inch of soil feels dry. They thrive in well-draining potting mix and benefit from occasional misting.",
+        "plant_type": "foliage",
+        "plant_fertilizer": "use a balanced fertilizer every 4-6 weeks during the growing season"
+    },
+    {
+        "id": 10,
+        "common_name": "Fiddle Leaf Fig",
+        "scientific_name": "Ficus lyrata",
+        "plant_location": "indoor",
+        "image_url": "https://images.unsplash.com/photo-1616173976697-efef88b2e860?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "plant_info": "Fiddle Leaf Fig is a popular indoor plant known for its large, glossy leaves that resemble fiddle instruments. It is a striking addition to any indoor space.",
+            "plant_care": "Fiddle Leaf Figs prefer bright, indirect light and should be watered when the top inch of soil feels dry. They thrive in well-draining potting mix and benefit from occasional misting.",
+            "plant_type": "foliage",
+            "plant_fertilizer": "use a balanced fertilizer every 4-6 weeks during the growing season"
+    },
+    {
+      "id": 11,
+      "common_name": "Mint",
+      "scientific_name": "Mentha",
+      "plant_location": "outdoor",
+      "image_url": "https://images.unsplash.com/photo-1556118903-08e0b48041fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Mint is a fragrant herb known for its refreshing aroma and flavor. It is commonly used in culinary dishes, teas, and cocktails.",
+        "plant_care": "Mint prefers full sun to partial shade and well-draining soil. It should be watered regularly, keeping the soil consistently moist but not waterlogged. Pruning helps promote bushy growth.",
+        "plant_type": "herb",
+        "plant_fertilizer": "use a balanced fertilizer during the growing season"
+    },
+    {
+      "id": 12,
+      "common_name": "Pothos",
+      "scientific_name": "Epipremnum aureum",
+      "plant_location": "indoor",
+      "image_url": "https://images.unsplash.com/photo-1537039557108-4a42c334fd5e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "plant_info": "Pothos is a hardy indoor plant known for its trailing vines and heart-shaped leaves. It is easy to care for and can thrive in a variety of conditions.",
+        "plant_care": "Pothos prefer bright, indirect light but can tolerate low light. They should be watered when the top inch of soil feels dry. They thrive in well-draining potting mix and benefit from occasional misting.",
+        "plant_type": "foliage",
+        "plant_fertilizer": "use a balanced fertilizer every 4-6 weeks during the growing season"
+    }
+  ]
+}
