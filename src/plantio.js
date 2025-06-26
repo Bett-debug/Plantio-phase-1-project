@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
       searchInput.addEventListener("input", () => {
         const input = searchInput.value.toLowerCase();
         const suggestions = plantNames.filter(name => name.includes(input));
-        console.log("Suggestions:", suggestions);
+        console.log(suggestions);
+
       });
     })
     .catch(err => console.error("Failed to fetch plant data:", err));
