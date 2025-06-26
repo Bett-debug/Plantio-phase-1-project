@@ -2,10 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("https://json-server-rqpr.onrender.com/data")
     .then(res => res.json())
     .then(data => {
+      
       const plantList = document.getElementById("plantioList");
       const plantNames = [];
 
-      data.data.forEach(plant => {
+      data.forEach(plant => {
         const card = document.createElement('div');
         card.className = 'h-80 p-4 bg-green-200 rounded-lg shadow max-w-xs  hover:shadow-lg';
 
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       });
     })
-    .catch(err => console.error("Failed to fetch plant data:", err));
+    // .catch(err => console.error("Failed to fetch plant data:", err));
 
     //filtering
     const typeFilter = document.getElementById("typeFilter");
@@ -61,6 +62,7 @@ typeFilter.addEventListener("change", (event) => {
     card.style.display = selectedType === "" || plantType.includes(selectedType) ? "block" : "none";
   });
 });
+
 
 });
 
