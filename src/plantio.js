@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("plantio.json")
+  fetch("https://json-server-rqpr.onrender.com/data")
     .then(res => res.json())
     .then(data => {
       const plantList = document.getElementById("plantioList");
